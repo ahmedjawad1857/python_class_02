@@ -106,7 +106,7 @@ myorder:str = "I want to pay {2} rupees for {0} pieces of item {1}."
 print(myorder.format(quantity, item_no, price))
 
 # capitalize() and lower() , upper() methods example
-name1="m.aHmAd"
+name1: str = "m.aHmAd"
 print("Original name",name1)
 print("upper() method example",name1.upper())
 print("capitalize() method example",name1.capitalize())
@@ -132,7 +132,7 @@ print(name1.casefold())
 
 # lstrip(),rstrip() and strip() method example 
 
-name2="     Muhammad       Ahmad         "
+name2:str = "     Muhammad       Ahmad         "
 print("Original name",name2)
 print("left strip method"+name2.lstrip())
 print(name2.rstrip()+"right strip method")
